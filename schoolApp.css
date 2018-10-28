@@ -1,0 +1,78 @@
+/* html, body {
+    margin: 0;
+    padding: 0;
+  }
+*/
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+
+.categories {
+
+}
+
+.categories h2 {
+    background-color: aquamarine;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header {
+    background: url(https://cdn.pixabay.com/photo/2015/09/11/21/03/city-936398_960_720.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 500px;
+    text-align: center; 
+}
+
+/*.header {
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/11/21/03/city-936398_960_720.jpg);
+    /*background-image: url(https://cdn.pixabay.com/photo/2018/04/22/02/41/nashville-3340046_960_720.png);
+    background-size: cover;
+    height: 400px;
+    width: 950px;
+}*/
+
+
+
+.header h1 {
+    font-size: 80px;
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    border: 2px solid white;
+    
+}
+
+h2 {
+
+}
+
+.questions {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#eAndeList {
+    margin: 0 auto;
+    padding: 20px 40px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+}
+
+.titles {
+    font-weight: bold;
+}
+
+.titleswithdescriptions {
+    margin-bottom: 0;
+}
+
+.descriptions {
+    margin-top: 0;
+}
