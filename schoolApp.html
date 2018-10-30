@@ -6,6 +6,13 @@
         <link href="schoolApp.css" type="text/css" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Montserrat|Roboto|Ubuntu" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script src="schoolApp.js"></script>
+
     </head>
     <body>
         <div class="header">
@@ -54,16 +61,15 @@
                 <p class="answers">Growing up my family wasn’t very wealthy, so when I had saved enough and was blessed enough to buy my first car - it wasn’t the prettiest or best ride in town, but it had potential. I watched tutorials, read manuals and learned piece by piece how to replace engine parts, remove dents and use different tools to increase its value. I fixed it up during a cold winter and hot summer and sold it for almost double! I'll be approaching this bootcamp and career with the same mentality.</p>
                 <p class="questions">The ability to think in a structured way, both creatively and quantitatively, to solve complex problems is an important element of being a successful developer. Can you tell us anything that demonstrates your abilities in that realm? (anything from standardized test scores to experience playing a musical instrument counts)</p>
                 <p class="answers">When I was working for YSL we went through a big transition and the HQ was moving to LA from Paris. They wanted to use the West Coast stores as a launching point for all window displays across the globe, and all that fell on my boss’ desk. I had experience with contractors and fabricating the displays I was able to provide, but my boss needed to send exact visual renderings of what the finished product would look like. I excitedly (and foolishly), told him that I could handle it and produce these. I spent everyday after work for one week learning enough in SketchUp to give a presentation of all the West Coast window displays down to the millimeters. They were approved and implemented in every boutique across the world. Most problems we need to solve on a day-to-day are complex, the trick is breaking it down into parts and figuring out how to solve each small problem. Before you know it, you've gone a mile one step at a time and can look back on your completed project.</p>
-                
-                <!-- These images do not load for me - I don't have access to the links. I suggest downloading the images and saving them in a folder here in this repo and including them in source control -->
+        
                 <p id="images"><img src="/Users/samalpren/Desktop/SamDev/devBootcampSubmission/images/Screen shot 2013-06-21 at 2.17.53 PM.png" height="250px" width="400px"><img src="/Users/samalpren/Desktop/SamDev/devBootcampSubmission/images/Screen shot 2013-06-21 at 2.18.18 PM.png" height="250px" width="400px"></p>
                 <p id="images"><img src="/Users/samalpren/Desktop/SamDev/devBootcampSubmission/images/Screen shot 2013-06-21 at 2.18.32 PM.png" height="250px" width="400px"><img src="/Users/samalpren/Desktop/SamDev/devBootcampSubmission/images/Screen shot 2013-06-21 at 2.18.48 PM.png" height="250px" width="400px"></p>    
             
                 <p class="questions">Please tell us something surprising or amusing that you have discovered.</p>
                 <p class="answers">How deep the rabbit hole or hole(s) go in the world of programming. This is so fascinating to me. There seems to be a different language everywhere I look and an endless amount of possibilities as to what you can learn and achieve. I’m very excited about what the future holds getting into this ever-changing landscape.</p>
                 <p class="questions">Video</p>
-                <!-- I also can't view this video, perhaps it needs to be made public? -->
-                <p class="questions"><iframe width="420" height="315"src="https://www.youtube.com/embed/v=00LYxbIp4zQ"></iframe></p>
+                
+                <p class="questions"><iframe width="560" height="315" src="https://www.youtube.com/embed/00LYxbIp4zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
         </div>
 
         <div>
@@ -92,14 +98,17 @@
                 <p class="answers">No, I have not yet</p>
                 <p class="questions">Is there anything else that you would like us to know? Take your best shot at selling us on why we want you in our class. Give us whatever additional information that will make us want to interview you for admission.</p>
                 <p class="answers">I would really appreciate the opportunity to make NSS a part of my life story. I’ve been learning and coding every spare minute I have to get involved in this world and I can’t get enough of it! I put together this very basic site for you guys with this application so you can see my excitement and eagerness. Hope to hear from you soon!</p>
-                <div>
-                    <button id="btnJustForFun">Just For Fun</button>
+                <div style="text-align: center; padding-top: 10px;">
+                    <button id="btnJustForFun">Just For Fun...</button>
                 </div>
         </div>
         
         <p id="catPic"><img src="images\computer-cat.jpg" height="250px" width="400px" alt="cat on computer"></p>
 
-        <script src=""></script>
+
+        <div id="dialog-confirm" title="Fingers crossed...">
+            <p>So I hope you enjoyed my submission, am I accepted into the NSS bootcamp?</p>
+        </div>
 
 
     </body>
