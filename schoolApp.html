@@ -6,6 +6,13 @@
         <link href="schoolApp.css" type="text/css" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Montserrat|Roboto|Ubuntu" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script src="schoolApp.js"></script>
+
     </head>
     <body>
         <div class="header">
@@ -93,13 +100,15 @@
                 <p class="answers">No, I have not yet</p>
                 <p class="questions">Is there anything else that you would like us to know? Take your best shot at selling us on why we want you in our class. Give us whatever additional information that will make us want to interview you for admission.</p>
                 <p class="answers">I would really appreciate the opportunity to make NSS a part of my life story. I’ve been learning and coding every spare minute I have to get involved in this world and I can’t get enough of it! I put together this very basic site for you guys with this application so you can see my excitement and eagerness. Hope to hear from you soon!</p>
-                <div>
-                    <button id="btnJustForFun">Just For Fun</button>
+                <div style="text-align: center; padding-top: 10px;">
+                    <button id="btnJustForFun">Just For Fun...</button>
                 </div>
         </div>
-        
 
-        <script src=""></script>
+
+        <div id="dialog-confirm" title="Fingers crossed...">
+            <p>So I hope you enjoyed my submission, am I accepted into the NSS bootcamp?</p>
+        </div>
 
 
     </body>
